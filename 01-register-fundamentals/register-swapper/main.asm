@@ -2,7 +2,7 @@
 main PROC           ; entry point, and is basically a function
 
 ; syntax reminder: 
-; INSTRUCTION DESTINATION_REGISTER, SOURCE )
+; INSTRUCTION   DESTINATION_REGISTER  SOURCE
 
     MOV RAX, 20     ; use the MOV instruction to put 20 into RAX
     MOV RBX, 80
