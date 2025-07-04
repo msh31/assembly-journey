@@ -7,9 +7,9 @@ main PROC
     MOV RAX, 20     
     MOV RBX, 80
 
-    ADD RAX, RBX
-    SUB RBX, RAX
-    SUB RAX, RBX
+    XOR RAX, RBX
+    XOR RBX, RAX
+    XOR RAX, RBX
 
     RET
 
